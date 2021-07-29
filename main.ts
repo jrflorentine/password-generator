@@ -1,11 +1,10 @@
 input.onGesture(Gesture.Shake, function () {
-    let list: number[] = []
-    basic.showNumber(number[randint(0, list.length - 1)])
-    basic.showString("" + (letter[randint(0, list.length - 1)]))
-    basic.showString("" + (_symbol[randint(0, list.length - 1)]))
-    basic.showNumber(number[randint(0, list.length - 1)])
-    basic.showString("" + (letter[randint(0, list.length - 1)]))
-    basic.showString("" + (_symbol[randint(0, list.length - 1)]))
+    basic.showNumber(number[randint(0, number.length - 1)])
+    basic.showString("" + (letter[randint(0, letter.length - 1)]))
+    basic.showString("" + (_symbol[randint(0, _symbol.length - 1)]))
+    basic.showNumber(number[randint(0, number.length - 1)])
+    basic.showString("" + (letter[randint(0, letter.length - 1)]))
+    basic.showString("" + (_symbol[randint(0, _symbol.length - 1)]))
 })
 let _symbol: string[] = []
 let letter: string[] = []
